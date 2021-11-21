@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/37e132a251.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <div class="card">
+        <div class="card-body">
+          <p class="city-list">
+            <span><button>Brisbane</button></span>
+            <span><button>Singapore</button></span>
+            <span><button>Paris</button></span>
+            <span><button>New York</button></span>
+          </p>
+          
+          <form class="search-form" id="search-form">
+            <input type="text" placeholder="Enter your current city" id="city-input"/>
+            <input type="submit" value="Search" />
+          </form>
+          
+<span><button type="button" class="btn btn-success" id="current-location-button">Current City</button></span>
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title" id="city">Rockhampton QLD</h5>
+                <p class="card-text" class="current-city-data">
+                 <div id="date">Saturday, 9th October 2021</div>
+                 
+                 <div id="temperature">
+                   25 
+                   </div>
+                   <span id="units">&degC</span> 
+                   <i class="fas fa-sun"></i>
+                  
+                
+                
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+      <p class="card-text">
+        <ul class="wind-humidity-uv">
+          <li id="wind"> 19 </li> <span id="units">km/hr </span>
+          <li id="humidity">41 <span id="units">% Humidity</span></li>
+          <li id="uv">UV 1.5</li>
+        </ul>
+      </p>
+        </div>
+          </div>
+          </div>
+            <div class="card text-center">
+          <div class="row row-cols-5 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card h-100" style="width: 10rem">
+                <div class="card-body">
+                  <h5 class="card-title">Sunday</h5>
+                  <i class="fas fa-sun"></i>
+                  <p class="card-text">29&degC | 17&degC</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 10rem">
+                <div class="card-body">
+                  <h5 class="card-title">Monday</h5>
+                  <i class="fas fa-sun"></i>
+                  <p class="card-text">31&degC | 19&degC</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100" style="width: 10rem">
+                <div class="card-body">
+                  <h5 class="card-title">Tuesday</h5>
+                  <i class="fas fa-cloud-showers-heavy"></i>
+                  <p class="card-text">29&degC | 19&degC</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 10rem">
+                <div class="card-body">
+                  <h5 class="card-title">Wednesday</h5>
+                  <i class="fas fa-cloud-sun"></i>
+                  <p class="card-text">29&degC | 19&degC</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="width: 10rem">
+                <div class="card-body">
+                  <h5 class="card-title">Thursday</h5>
+                  <i class="fas fa-cloud-showers-heavy"></i>
+                  <p class="card-text">31&degC | 21&degC</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <footer>Coded by Lucy Cupitt</footer>
+    </div>
+    <script src="src/indexwk5hw.js"></script>
+  </body> 
+
+</html>

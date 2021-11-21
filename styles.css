@@ -1,0 +1,33 @@
+body,
+h1 {
+  font-family: "Abel", sans-serif;
+}
+h1 {
+  color: blue;
+}
+button,
+city-list {
+  padding: 5px 10px;
+  line-height: 24px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.city-list {
+  list-style: none;
+  padding: 0px;
+}
+.current-location-button {
+  color: blueviolet;
+  padding: 5px 10px;
+  line-height: 24px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.wind-humidity-uv {
+  list-style: none;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
